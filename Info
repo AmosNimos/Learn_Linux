@@ -1,0 +1,74 @@
+
+terminal music player
+#to install moc
+sudo apt install moc
+#to use moc
+mocp
+
+#alternative
+cmus
+(i have no idea how to use that one)
+
+#bash
+move to the end on a line ^e move to the beginning of a line ^a.
+
+#BASIC coding language shell
+bwbasic
+
+lbry format
+ffmpeg -i input.mkv -c:v libx264 -crf 21 -preset faster -pix_fmt yuv420p -maxrate 5000K -bufsize 5000K -vf 'scale=if(gte(iw\,ih)\,min(1920\,iw)\,-2):if(lt(iw\,ih)\,min(1920\,ih)\,-2)' -movflags +faststart -c:a aac -b:a 160k -max_muxing_queue_size 9999 output.mp4
+
+#pdf to text
+pdftotext -layout input.pdf output.txt
+
+#what is my ip 
+hostname -I | awk '{print $1}'
+
+#ricing
+#it mean making your own icon, customise your theme and shortcut and configuarion file.
+
+##terminal browser
+#web
+qutebrowser
+w3m
+
+#gemini
+bollux
+
+#windows manager
+i3
+awesome
+
+sudoedit
+# sudoedit "/file/file.type"
+
+#rc file are resouce file
+#example /home/bashrc
+alias new=old
+#exemple alisa py = "python3 programename.py"
+
+Super+space change the language keyboard layout.
+
+#rename a file
+mv old-name new-name
+
+#convert multiple spaces to a tabs of file content
+sed 's/ \+ /\t/g' algo_strategy.py > algo_strategy1.py
+
+#fix sound...
+sudo alsa force-reload
+
+#open the gui file manager at the current working directory of the terminal
+xdg-open .
+
+#change theme
+gsettings set org.gnome.desktop.interface gtk-theme "Dracula"
+gsettings set org.gnome.desktop.interface icon-theme "Dracula"
+gsettings set org.gnome.desktop.wm.preferences theme "Dracula"
+lxappearance
+
+#rendering engine?
+picom from compton
+
+#to find app
+synapse
