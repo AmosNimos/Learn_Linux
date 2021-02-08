@@ -1,13 +1,13 @@
 
-terminal music player
-#to install moc
-sudo apt install moc
-#to use moc
+##Record audio file
+sudo apt install sox
+
+##Terminal music player
+moc 
+# to use moc
 mocp
 
-#alternative
 cmus
-(i have no idea how to use that one)
 
 #bash
 move to the end on a line ^e move to the beginning of a line ^a.
