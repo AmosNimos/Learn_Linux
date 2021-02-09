@@ -1,4 +1,7 @@
 
+##Play audio file
+play filename.format
+
 ##Record audio file
 sudo apt install sox
 
