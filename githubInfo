@@ -4,11 +4,8 @@ cd projectFile/
 #Initialise git
 git init
 
-#Create new branch
-git branch
-
-#Give you the git status
-git status
+#add file to the commit
+git add fileName
 
 #Prepare commit to be push
 git commit -m "Add folder files to the repository with this as a comment"
@@ -21,3 +18,9 @@ git push -u origin targetbranchName
 
 #Update the computer repository to match the one on github
 git pull origin targetbranchName
+
+#Create new branch
+git branch
+
+#Give you the git status
+git status
