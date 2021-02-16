@@ -1,0 +1,23 @@
+#Move to repository file
+cd projectFile/
+
+#Initialise git
+git init
+
+#Create new branch
+git branch
+
+#Give you the git status
+git status
+
+#Prepare commit to be push
+git commit -m "Add folder files to the repository with this as a comment"
+
+#Create a remote connection
+git remote add origin https://github.com/username/myrepository.git
+
+#Puch commit to branch
+git push -u origin targetbranchName
+
+#Update the computer repository to match the one on github
+git pull origin targetbranchName
