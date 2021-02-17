@@ -1,5 +1,6 @@
 #download youtube video
 sudo apt install youtube-dl
+#youtube-dl can download the content of a chanel, playList or video with the url
 
 ##Play audio file
 play filename.format
