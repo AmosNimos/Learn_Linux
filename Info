@@ -1,3 +1,5 @@
+#download youtube video
+sudo apt install youtube-dl
 
 ##Play audio file
 play filename.format
