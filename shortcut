@@ -1,0 +1,5 @@
+custum shortcut
+
+#autofill password
+/bin/bash -c  "sleep 0.5 && xdotool type --clearmodifiers 'password'"
+ctrl+Z
