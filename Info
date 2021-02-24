@@ -1,3 +1,6 @@
+mpv can open entire folder and you use the "enter key to skip to the next video"
+
+
 #download youtube video
 sudo apt install youtube-dl
 #youtube-dl can download the content of a chanel, playList or video with the url
