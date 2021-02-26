@@ -1,5 +1,8 @@
 mpv can open entire folder and you use the "enter key to skip to the next video"
 
+# with calibre convert epub to txt to read them from the terminal using the cat or less command
+ebook-convert input.epub output.txt
+
 
 #download youtube video
 sudo apt install youtube-dl
