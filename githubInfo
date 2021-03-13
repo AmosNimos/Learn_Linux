@@ -7,6 +7,9 @@ git init
 #add file to the commit
 git add fileName
 
+#add all file to the commit
+git add *
+
 #Prepare commit to be push
 git commit -m "Add folder files to the repository with this as a comment"
 
