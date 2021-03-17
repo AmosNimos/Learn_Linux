@@ -1,5 +1,8 @@
 hakuneko
-download manga scan, light-novel, webcomics
+#download manga scan, light-novel, webcomics
 
 sudo apt install krop
 #crops pdf
+
+sudo apt-get install pdftk
+#merge, rotate pdf 
