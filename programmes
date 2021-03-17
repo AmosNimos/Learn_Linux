@@ -6,3 +6,6 @@ sudo apt install krop
 
 sudo apt-get install pdftk
 #merge, rotate pdf 
+
+sudo apt install qpdf
+#merge
