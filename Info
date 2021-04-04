@@ -1,5 +1,9 @@
 mpv can open entire folder and you use the "enter key to skip to the next video"
 
+If you wish to compress your videos before uploading them to YouTube, you can use FFmpeg:
+
+ffmpeg -i input -c:v libx264 -crf 21 -preset faster -pix_fmt yuv420p -maxrate 5000K -bufsize 5000K -vf 'scale=if(gte(iw\,ih)\,min(1920\,iw)\,-2):if(lt(iw\,ih)\,min(1920\,ih)\,-2)' -movflags +faststart -c:a aac -b:a 160k output
+
 # with calibre convert epub to txt to read them from the terminal using the cat or less command
 ebook-convert input.epub output.txt
 
