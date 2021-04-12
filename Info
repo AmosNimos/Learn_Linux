@@ -1,3 +1,6 @@
+#show the history of comand in bash
+history 
+
 mpv can open entire folder and you use the "enter key to skip to the next video"
 
 If you wish to compress your videos before uploading them to YouTube, you can use FFmpeg:
