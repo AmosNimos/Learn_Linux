@@ -2,5 +2,5 @@
 sudo apt install libgtk-3-dev
 #libx11
 sudo apt install libx11-dev
-#sdl
-sudo apt install libsdl1.2-dev libsdl-mixer1.2-dev
+#sdl (not sure it work)
+//sudo apt install libsdl1.2-dev libsdl-mixer1.2-dev
