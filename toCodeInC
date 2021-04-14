@@ -8,3 +8,5 @@ sudo apt install libx11-dev
 ##  CPP
 #sfml
 sudo apt-get install libsfml-dev
+#(how to compile with the library included)
+g++ -o test window_test.cpp -lsfml-graphics -lsfml-window -lsfml-system
