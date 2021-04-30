@@ -13,5 +13,5 @@ sudo apt-get install libsfml-dev
 #(how to compile with the library included)
 g++ -o output_file window_test.cpp -lsfml-graphics -lsfml-window -lsfml-system -lX11
 
-you can also just use:
+you can try:
 make window_test
