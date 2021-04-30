@@ -3,8 +3,10 @@
 sudo apt install libgtk-3-dev
 #libx11
 sudo apt install libx11-dev
+gcc hello-x.c -o test -lsfml-graphics -lsfml-window -lsfml-system  -L /usr/X11R6/lib -lX11
 #sdl (not sure it work)
 //sudo apt install libsdl1.2-dev libsdl-mixer1.2-dev
+
 ##  CPP
 #sfml
 sudo apt-get install libsfml-dev
