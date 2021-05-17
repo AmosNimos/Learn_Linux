@@ -1,5 +1,9 @@
 #tts
 https://www.youtube.com/watch?v=4uKTamXonPs
+sudo apt install festival
+
+#pipe gui selection to a command
+sudo apt install xsel
 
 some key code for key mapping
 https://www.tcl.tk/man/tcl8.4/TkCmd/keysyms.htm
