@@ -2,6 +2,10 @@
 https://www.youtube.com/watch?v=4uKTamXonPs
 sudo apt install festival
 
+#tts french francais
+sudo apt install espeak
+echo "bonjour" | espeak -vfr
+
 #pipe gui selection to a command
 sudo apt install xsel
 
