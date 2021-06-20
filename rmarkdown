@@ -1,0 +1,41 @@
+1. Install necessary packages for R Markdown: 
+2. 
+```sh
+sudo apt install r-base
+sudo apt install texlive-latex-base
+sudo apt install texlive-latex-extra
+sudo apt install texlive-extra-utils
+sudo apt install texlive-fonts-extra
+sudo apt install pandoc
+```
+
+2. Change R library installation path to `~/.local/R` to avoid permission issues: 
+
+```sh
+echo "R_LIBS_USER='~/.local/R/x86_64-pc-linux-gnu-library/3.6'" > ~/.Renviron
+```
+3.
+```sh
+sudo R
+```
+3.1
+```r
+dir.create(Sys.getenv("R_LIBS_USER"), recursive=TRUE)
+.libPaths(Sys.getenv("R_LIBS_USER"))
+```
+
+3.2 Install R Mardown: 
+
+```r
+install.packages("rmarkdown")
+rmarkdown::render("*.Rmd")
+```
+
+https://cran.r-project.org/web/packages/startup/vignettes/startup-intro.html
+
+https://knausb.github.io/2017/07/r-3.4.1-personal-library-location/
+
+https://stackoverflow.com/questions/32540919/library-is-not-writable
+
+(Source)
+https://gist.github.com/estsaon/cefdb65a4163f70edd2d39d0a0f128d8
