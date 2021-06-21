@@ -18,7 +18,7 @@ pandoc README.md -o README.epub
 
 # Markdown to html
 ```bash
-markdown test.md > test.html
+markdown README.md > README.html
 ```
 ## Sources
 [Source 1](https://blog.podkalicki.com/markdown-to-pdf-quick-howto-for-linux-ubuntu/)
