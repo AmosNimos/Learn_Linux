@@ -1,10 +1,11 @@
-#Bash terminal cursor movement tips
+# Bash terminal cursor movement tips
 http://teohm.com/blog/shortcuts-to-move-faster-in-bash-command-line/
 > ("meta key" is the "alt key")
 
-#tts
+# tts
 https://www.youtube.com/watch?v=4uKTamXonPs
 sudo apt install festival
+---
 
 #tts french francais
 sudo apt install espeak
@@ -16,8 +17,8 @@ sudo apt install xsel
 some key code for key mapping
 https://www.tcl.tk/man/tcl8.4/TkCmd/keysyms.htm
 
+# Code in basic, in the terminal, can also open .bas file.
 bwbasic
-# to code in basic in the terminal, can also open .bas file.
 
 really cool terminal emulator
 https://github.com/Swordfish90/cool-retro-term
