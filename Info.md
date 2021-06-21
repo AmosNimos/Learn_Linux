@@ -2,27 +2,30 @@
 http://teohm.com/blog/shortcuts-to-move-faster-in-bash-command-line/
 > ("meta key" is the "alt key")
 
+---
+
 # tts
 https://www.youtube.com/watch?v=4uKTamXonPs
 sudo apt install festival
----
 
-#tts french francais
+## tts french francais
 sudo apt install espeak
 echo "bonjour" | espeak -vfr
 
-#pipe gui selection to a command
+---
+
+# gui __selection__ to a command
 sudo apt install xsel
 
-some key code for key mapping
-https://www.tcl.tk/man/tcl8.4/TkCmd/keysyms.htm
+> some key code for key mapping
+> https://www.tcl.tk/man/tcl8.4/TkCmd/keysyms.htm
 
 # Code in basic, in the terminal, can also open .bas file.
 bwbasic
 
-really cool terminal emulator
+# really cool terminal emulator
 https://github.com/Swordfish90/cool-retro-term
-
+'''bash
 wget https://github.com/Swordfish90/cool-retro-term/releases/download/1.1.1/Cool-Retro-Term-1.1.1-x86_64.AppImage
 chmod a+x Cool-Retro-Term-1.1.1-x86_64.AppImage
 ./Cool-Retro-Term-1.1.1-x86_64.AppImage
@@ -128,3 +131,5 @@ picom from compton
 
 #to find app
 synapse
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
