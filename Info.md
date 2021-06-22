@@ -53,11 +53,7 @@ ffmpeg -i input.mkv -c:v libx264 -crf 21 -preset faster -pix_fmt yuv420p -maxrat
 
 ---
 
-# with calibre convert epub to txt 
-ebook-convert input.epub output.txt
-> (To read them from the terminal using the cat or less command.)
-
-# download youtube video
+# Download youtube video
 sudo apt install youtube-dl
 #youtube-dl can download the content of a chanel, playList or video with the url
 #you can specify the destination with
@@ -84,6 +80,10 @@ pdftotext -layout input.pdf output.txt
 # text to epub
 ebook-convert input.txt output.epub
 
+# epub to txt
+ebook-convert input.epub output.txt
+> (To read them from the terminal using the cat or less command.)
+
 ---
 
 # what is my ip 
@@ -97,7 +97,9 @@ hostname -I | awk '{print $1}'
 ## gemini
 - bollux
 
-## windows manager
+---
+
+# windows manager
 - awesome
 [Awesome config](https://github.com/AmosNimos/awsom)
 - i3
@@ -112,16 +114,16 @@ sudoedit "/file/file.type"
 
 exemple alisa py = "python3 programename.py"
 
-# change language ubuntu
+# Change language ubuntu
 Super+space change the language keyboard layout in ubuntu.
 
-# rename a file
+# Rename a file
 mv old-name new-name
 
 # convert multiple spaces to a tabs of file content
 sed 's/ \+ /\t/g' algo_strategy.py > algo_strategy1.py
 
-# fix sound... (Because sound break often)
+# Fix sound... (Because sound break often)
 sudo alsa force-reload
 
 # Open the gui file manager at the current working directory of the terminal
@@ -141,11 +143,26 @@ lxappearance
 # to find app
 synapse
 
-# nano
-Configuration for the nano terminal text editor
-## nanorc
+## Nanorc
+### (Configuration for the nano terminal text editor)
 set tabsize 4
 set linenumbers
 set mouse
+
+# Bash Usefull commands
+- tail filename.format (show the end of the file)
+- head filename.format (show the begening of the file)
+- less fielname.format (show the begening of the file)
+- mkdir directoryname (create empty directory)
+- touch filename.format (create empty directory)
+- rm filename (remove file)
+- rmdir directoryname (remove empty directoryname)
+- "something" > file.format (replace file content with "something")
+- "something" >> file.format (append "something" at the end of file.format content)
+- ls (list file in current directory)
+- cd /path/to/directory (move to directory)
+- cd (move to home directory)
+- man commandname (show manual of information about commandname)
+
 
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
