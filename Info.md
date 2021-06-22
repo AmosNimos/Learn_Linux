@@ -1,5 +1,7 @@
 [Debian setup](https://github.com/AmosNimos/debian-based-setup)
+
 [Bash terminal](https://github.com/AmosNimos/bashrc)
+
 [vim](https://github.com/AmosNimos/VIM)
 
 # Bash terminal cursor movement tips
