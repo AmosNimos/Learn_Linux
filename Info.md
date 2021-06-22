@@ -1,3 +1,7 @@
+[Debian setup](https://github.com/AmosNimos/debian-based-setup)
+[Bash terminal](https://github.com/AmosNimos/bashrc)
+[vim](https://github.com/AmosNimos/VIM)
+
 # Bash terminal cursor movement tips
 http://teohm.com/blog/shortcuts-to-move-faster-in-bash-command-line/
 
@@ -7,7 +11,7 @@ http://teohm.com/blog/shortcuts-to-move-faster-in-bash-command-line/
 
 ---
 
-# tts
+# tts (text to speech)
 https://www.youtube.com/watch?v=4uKTamXonPs
 sudo apt install festival
 
@@ -93,6 +97,7 @@ hostname -I | awk '{print $1}'
 
 ## windows manager
 - awesome
+[Awesome config](https://github.com/AmosNimos/awsom)
 - i3
 
 ---
@@ -133,5 +138,12 @@ lxappearance
 
 # to find app
 synapse
+
+# nano
+Configuration for the nano terminal text editor
+## nanorc
+set tabsize 4
+set linenumbers
+set mouse
 
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
