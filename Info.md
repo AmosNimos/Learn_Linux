@@ -163,6 +163,7 @@ set mouse
 - cd /path/to/directory (move to directory)
 - cd (move to home directory)
 - man commandname (show manual of information about commandname)
+- mv /path/to/file.format /path/to/another/directory (move file.format to directory)
+- mv oldname.format newname.format (rename oldname to newname)
 
-
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
