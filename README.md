@@ -89,13 +89,16 @@ ebook-convert input.epub output.txt
 # what is my ip 
 hostname -I | awk '{print $1}'
 
-# terminal browser
+# Terminal text web browser
 ## web
 - qutebrowser
 - w3m
 
 ## gemini
 - bollux
+
+## Search engin
+- https://wiby.me/
 
 ---
 
