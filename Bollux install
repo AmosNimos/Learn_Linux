@@ -1,0 +1,5 @@
+## Bollux install
+- cd && git clone https://git.sr.ht/~acdw/bollux && cd bollux
+- sudo make install
+- bollux
+Now you should be able to acces Gemini website by typing the command bollux from the terminal followed by the website of your choosing.
