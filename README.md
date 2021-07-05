@@ -85,12 +85,15 @@ ebook-convert input.epub output.txt
 > (To read them from the terminal using the cat or less command.)
 
 # html to pdf
+Install html to pdf
 ```bash
 sudo apt-get install wkhtmltopdf
 sudo ln -s /usr/bin/wkhtmltopdf /usr/local/bin/html2pdf
 ```
-
-
+Use html to pdf
+```bash
+html2pdf source.html output.pdf
+```
 ---
 
 # what is my ip 
