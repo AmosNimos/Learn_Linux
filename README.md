@@ -131,6 +131,10 @@ exemple alisa py = "python3 programename.py"
 # Change language ubuntu
 Super+space change the language keyboard layout in ubuntu.
 
+or 
+
+setxkbmap us
+
 # Rename a file
 mv old-name new-name
 
