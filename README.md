@@ -183,5 +183,6 @@ set mouse
 - man commandname (show manual of information about commandname)
 - mv /path/to/file.format /path/to/another/directory (move file.format to directory)
 - mv oldname.format newname.format (rename oldname to newname)
+- xkill (Click on a programme to force it to close)
 
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
