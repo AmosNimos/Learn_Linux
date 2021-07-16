@@ -159,7 +159,15 @@ gsettings set org.gnome.desktop.wm.preferences theme "Dracula"
 lxappearance
 
 # to find app
-synapse
+sudo apt install synapse
+
+Or
+
+In the terminal type:
+Whereis name_of_programme
+
+> Don't forget to replace __name_of_programme__ with the actual name of the programe of file you are looking for.
+
 
 ## Nanorc
 ### (Configuration for the nano terminal text editor)
@@ -193,11 +201,9 @@ su -
 
 > Enter root password (if you don't have it, pray.)
 
-cd /etc
+cd /etc && echo "user_name ALL=(ALL)  ALL" >> /etc/sudoers
 
 > (Don't forget to replace __user_name__ with your actuall user name.)
-
-echo "user_name ALL=(ALL)  ALL" >> /etc/sudoers
 
 ---
 
