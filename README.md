@@ -185,4 +185,12 @@ set mouse
 - mv oldname.format newname.format (rename oldname to newname)
 - xkill (Click on a programme to force it to close)
 
+# Add acount to sudoers (sudo access)
+su -
+> Enter root password (if you don't have it, pray.)
+user_name ALL=(ALL)  ALL
+cd /etc
+> (Don't forget to replace __user_name__ with your actuall user name.)
+echo "user_name ALL=(ALL)  ALL" >> /etc/sudoers
+
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
