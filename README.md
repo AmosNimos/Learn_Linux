@@ -207,4 +207,8 @@ cd /etc && echo "user_name ALL=(ALL)  ALL" >> /etc/sudoers
 
 ---
 
+# Install .deb package
+
+sudo dpkg -i [packagename].deb
+
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
