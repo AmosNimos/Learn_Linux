@@ -211,6 +211,8 @@ cd /etc && echo "user_name ALL=(ALL)  ALL" >> /etc/sudoers
 
 sudo dpkg -i [packagename].deb
 
+---
+
 # Create a bootable linux distro flash drive isntaller 
 
 - Download Iso file
@@ -228,5 +230,7 @@ sudo dpkg -i [packagename].deb
 - Then disconnect the phisical usb drive from your computer hardware, and reconnect it to see if the change have been made.
 
 > All this could be automated by a shell file.
+
+---
 
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
