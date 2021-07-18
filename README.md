@@ -237,9 +237,9 @@ sudo dpkg -i [packagename].deb
 
 --- 
 
-# my 60% keyboard key modification
+# My 60% keyboard key modification
 ~~~
-#Swap caps lock and escape
+# Swap caps lock and escape
 setxkbmap -option caps:swapescape
 
 # Replace right shift with tilde 
