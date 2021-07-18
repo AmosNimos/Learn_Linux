@@ -233,4 +233,17 @@ sudo dpkg -i [packagename].deb
 
 ---
 
+> To run command when you start the bash terminal you might need to append them in ~/.profile and check the Command/Run command as login shell preference.
+
+--- 
+
+# my 60% keyboard key modification
+~~~
+#Swap caps lock and escape
+setxkbmap -option caps:swapescape
+
+# Replace right shift with tilde 
+xmodmap -e 'keycode 62 = asciitilde'
+~~~
+
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
