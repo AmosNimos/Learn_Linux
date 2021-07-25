@@ -1,8 +1,12 @@
 [Debian setup](https://github.com/AmosNimos/debian-based-setup)
 
+[More setup](https://github.com/AmosNimos/Xstaller/blob/main/Xstaller.md)
+
 [Bash terminal](https://github.com/AmosNimos/bashrc)
 
 [vim](https://github.com/AmosNimos/VIM)
+
+
 
 ## basic advice 
 > Use the shortcut __ctrl-f__ to search topics on this page.
