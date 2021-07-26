@@ -199,8 +199,15 @@ set mouse
 - mv /path/to/file.format /path/to/another/directory (move file.format to directory)
 - mv oldname.format newname.format (rename oldname to newname)
 - xkill (Click on a programme to force it to close)
-
 ---
+
+## Naming a file 
+
+add the following to the name of a file you are creating from the terminal to append the current date __$(date +"(%m_%d_%Y)").__
+Example:
+~~~
+filename_$(date +"%m_%d_%Y").txt
+~~~
 
 # Add acount to sudoers (sudo access)
 
