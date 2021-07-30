@@ -1,6 +1,6 @@
-[My favorit applications](https://github.com/AmosNimos/Xstaller/blob/main/Xstaller.md)
+[My favorit applications 🌟](https://github.com/AmosNimos/Xstaller/blob/main/Xstaller.md)
 
-[Debian based setup](https://github.com/AmosNimos/debian-based-setup)
+[Debian based setup ⚙️](https://github.com/AmosNimos/debian-based-setup)
 
 [Bash terminal](https://github.com/AmosNimos/bashrc)
 
