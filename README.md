@@ -1,4 +1,4 @@
-[My favorit applications 🌟](https://github.com/AmosNimos/Xstaller/blob/main/Xstaller.md)
+[My favorit applications 🌟](https://github.com/AmosNimos/Xstaller)
 
 [Debian based setup ⚙️](https://github.com/AmosNimos/debian-based-setup)
 
