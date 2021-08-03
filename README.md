@@ -239,7 +239,7 @@ sudo dpkg -i [packagename].deb
 - sudo lsblk 
 - Find the name of the __usb port__ by comparing both lsblk output
 - sudo umount /dev/__NameOfUsbPort__
-- sudo dd bs=4M if=__PathToYOurIsoFile__ of=/dev/sdb status=progress oflag=sync
+- sudo dd bs=4M if=__PathToYOurIsoFile__ of=/dev/__NameOfUsbPort__ status=progress oflag=sync
 - Wait for it to be installed.
 - Then disconnect the phisical usb drive from your computer hardware, and reconnect it to see if the change have been made.
 
