@@ -190,7 +190,7 @@ set mouse
 - cat *file_name* (show the content of the file)
 - vi (basic old shool text editor) 
 
-> You can exit vi and vim (without saving) by typing:
+> You can __Exit__ the __Vi__ and __Vim__ editor (without saving) by typing:
 
 ~~~
 :q
@@ -201,24 +201,26 @@ set mouse
 - rm *filename* (remove file)
 - rmdir *directory_name* (remove empty directoryname)
 - mkdir *directory_name* (Make a new directory)
-- "something" > file.format (replace file content with "something")
-- "something" >> file.format (append "something" at the end of file.format content)
+- "something" > *file_name* (replace file content with "something")
+- "something" >> *file_name* (append "something" at the end of file.format content)
 - ls (list file in current directory)
 - cd /path/to/directory (move to directory)
 - cd (move to home directory)
-- man commandname (show manual of information about commandname)
-- mv /path/to/file.format /path/to/another/directory (move file.format to directory)
-- mv oldname.format newname.format (rename oldname to newname)
+- man (show manual of information about commandname)
+- mv *path_to/file_name* /path/to/another/directory (move file.format to directory)
+- mv *old_name* *new_name* (rename oldname to newname)
 - xkill (Click on a programme to force it to close)
 - pwd (Print working directory)
 
 - top (show running processes)
 - ps (reports information on current running processes, outputting to standard output.)
 
-> On my bashrc you have the fuction __hitman__ which use this command.
+> On my bashrc you have the fuction __hitman__ which use the __kill__ command.
+
 - kill (kill running processes)
 
-> On my bashrc you have the function __memory__ which use this command.
+> On my bashrc you have the function __memory__ which use the __df__ command.
+
 - df (disck free, display the amount of available disk space for file systems)
 
 - du (allows a user to gain disk usage information quickly.)
