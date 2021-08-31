@@ -293,3 +293,4 @@ xmodmap -e 'keycode 62 = asciitilde'
 
 ### Threads and blog
 [Unix_commands?](https://news.ycombinator.com/item?id=6360320)
+[Net_Quake](https://www.netquake.io/quake)
