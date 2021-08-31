@@ -291,6 +291,8 @@ xmodmap -e 'keycode 62 = asciitilde'
 
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-### Threads and blog
-[Unix_commands?](https://news.ycombinator.com/item?id=6360320)
-[Net_Quake](https://www.netquake.io/quake)
+### Threads Sites and Blog
+
+A discussion on popular [Unix_commands](https://news.ycombinator.com/item?id=6360320)
+
+Play Quake on your web browser on [Net_Quake](https://www.netquake.io/quake)
