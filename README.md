@@ -182,14 +182,25 @@ set tabsize 4
 set linenumbers
 set mouse
 
+ cat vi
 # Bash Usefull commands
-- tail filename.format (show the end of the file)
-- head filename.format (show the begening of the file)
-- less fielname.format (show the begening of the file)
-- mkdir directoryname (create empty directory)
-- touch filename.format (create empty directory)
-- rm filename (remove file)
-- rmdir directoryname (remove empty directoryname)
+- tail *file_name* (show the end of the file)
+- head *file_name* (show the begening of the file)
+- less *file_name* (show the content of the file)
+- cat *file_name* (show the content of the file)
+- vi (basic old shool text editor) 
+
+> You can exit vi and vim (without saving) by typing:
+
+~~~
+:q
+~~~
+
+- mkdir *directoryname* (create empty directory)
+- touch *file_name* (create empty directory)
+- rm *filename* (remove file)
+- rmdir *directory_name* (remove empty directoryname)
+- mkdir *directory_name* (Make a new directory)
 - "something" > file.format (replace file content with "something")
 - "something" >> file.format (append "something" at the end of file.format content)
 - ls (list file in current directory)
@@ -199,6 +210,22 @@ set mouse
 - mv /path/to/file.format /path/to/another/directory (move file.format to directory)
 - mv oldname.format newname.format (rename oldname to newname)
 - xkill (Click on a programme to force it to close)
+- pwd (Print working directory)
+
+- top (show running processes)
+- ps (reports information on current running processes, outputting to standard output.)
+
+> On my bashrc you have the fuction __hitman__ which use this command.
+- kill (kill running processes)
+
+> On my bashrc you have the function __memory__ which use this command.
+- df (disck free, display the amount of available disk space for file systems)
+
+- du (allows a user to gain disk usage information quickly.)
+
+- cp (copy files or group of files or directory.)
+
+
 ---
 
 ## Naming a file 
@@ -261,3 +288,6 @@ xmodmap -e 'keycode 62 = asciitilde'
 ~~~
 
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+### Threads and blog
+[Unix_commands?](https://news.ycombinator.com/item?id=6360320)
