@@ -1,10 +1,12 @@
+[Hardware compatibility ⚙️](https://linux-hardware.org/index.php?id=pci:1002-9850-1025-104b)
+
 [My favorit applications 🌟](https://github.com/AmosNimos/Xstaller)
 
 [Debian based setup ⚙️](https://github.com/AmosNimos/debian-based-setup)
 
-[Bash terminal config](https://github.com/AmosNimos/bashrc)
+[Bash terminal config ⚙️](https://github.com/AmosNimos/bashrc)
 
-[vim](https://github.com/AmosNimos/VIM)
+[vim 📝](https://github.com/AmosNimos/VIM)
 
 
 
