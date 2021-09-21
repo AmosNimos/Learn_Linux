@@ -13,6 +13,11 @@
 ## basic advice 
 > Use the shortcut __ctrl-f__ to search topics on this page.
 
+# Spreadsheet editor
+~~~
+sc
+~~~
+
 # Bash terminal cursor movement tips
 http://teohm.com/blog/shortcuts-to-move-faster-in-bash-command-line/
 
