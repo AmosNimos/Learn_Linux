@@ -1,5 +1,3 @@
-[Hardware compatibility ⚙️](https://linux-hardware.org/index.php?id=pci:1002-9850-1025-104b)
-
 [My favorit applications 🌟](https://github.com/AmosNimos/Xstaller)
 
 [Debian based setup ⚙️](https://github.com/AmosNimos/debian-based-setup)
@@ -8,10 +6,18 @@
 
 [vim 📝](https://github.com/AmosNimos/VIM)
 
-
-
 ## basic advice 
 > Use the shortcut __ctrl-f__ to search topics on this page.
+
+# Installing linux
+> I suggest you start with Ubuntu
+Make sure the computer is plugged directly trough ethernet durring the installation in case your wifi driver are not detected during the installation.
+
+# Hardware compatibility
+[Hardware compatibility ⚙️](https://linux-hardware.org/index.php?id=pci:1002-9850-1025-104b)
+
+
+
 
 # Spreadsheet editor
 ~~~
