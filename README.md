@@ -10,16 +10,48 @@
 > Use the shortcut __ctrl-f__ to search topics on this page.
 
 # Installing linux
-> I suggest you start with Ubuntu
-Make sure the computer is plugged directly trough ethernet durring the installation in case your wifi driver are not detected during the installation.
 
-# Hardware compatibility
-[Hardware compatibility ⚙️](https://linux-hardware.org/index.php?id=pci:1002-9850-1025-104b)
+> Begginer: I suggest you start with [Ubuntu LTS](https://ubuntu.com/download) as your first [gnu/linux](https://fr.wikipedia.org/wiki/Linux_ou_GNU/Linux) [distribution](https://fr.wikipedia.org/wiki/Distribution_Linux).
+
+> Advance:  I suggest you try [Debian LTS](https://wiki.debian.org/DebianOldStable) for a more barebone distribution.
+
+## Preparation
+- You need to make sure your computer is connected to the internet befor you start the installation.
+- Get Yourself a USB Flash Drive of at least 5 GB.
+
+> Warning: Your GPU integrated WIFI, external WIFI or other hardware component, might not be compatible with some distribution, some [driver](https://tldp.org/LDP/tlk/dd/drivers.html#:~:text=The%20Linux%20kernel%20device%20drivers,abstracts%20the%20handling%20of%20devices.) might need to be installed sepparatly.
+> [Hardware compatibility ⚙️](https://linux-hardware.org/index.php?id=pci:1002-9850-1025-104b)
+
+# Create a bootable linux distro flash drive
+
+- Download Iso file from the official distribution website.
+
+- In your terminal execute the following command to list ports.
+~~~ 
+sudo lsblk 
+~~~
+
+- Phisically plug usb device to your computer hardware.
+
+- In your terminal execute the following command again to see what port have been added.
+~~~ 
+sudo lsblk 
+~~~ 
+
+- Find the name of the __usb port__ by comparing both lsblk output
+~~~ 
+sudo umount /dev/__NameOfUsbPort__
+sudo dd bs=4M if=__PathToYOurIsoFile__ of=/dev/__NameOfUsbPort__ status=progress oflag=sync
+~~~ 
+- Wait for it to be installed.
+- Then disconnect the phisical usb drive from your computer hardware, and reconnect it to see if the change have been made.
+
+> All this could probably be automated by a shell file.
+
+---
 
 
-
-
-# Spreadsheet editor
+# Terminal based spreadsheet editor
 ~~~
 sc
 ~~~
@@ -29,7 +61,7 @@ http://teohm.com/blog/shortcuts-to-move-faster-in-bash-command-line/
 
 > Move to the end on a line ctrl-e move to the beginning of a line ctrl-a.
 
-> ("meta key" is the "alt key")
+> Note: ("meta key" is the "alt key")
 
 ---
 
@@ -40,17 +72,14 @@ sudo apt install festival
 ## tts french francais
 sudo apt install espeak
 
-echo "bonjour" | espeak -vfr
+echo "Bonjour" | espeak -vfr
 
 ---
 
-# gui __selection__ to a command
-sudo apt install xsel
-
-# some key code for key mapping
+# Some keycode for key mapping
 https://www.tcl.tk/man/tcl8.4/TkCmd/keysyms.htm
 
-# really cool terminal emulator
+# Really cool terminal emulator
 https://github.com/Swordfish90/cool-retro-term
 ```bash
 wget https://github.com/Swordfish90/cool-retro-term/releases/download/1.1.1/Cool-Retro-Term-1.1.1-x86_64.AppImage
@@ -58,11 +87,8 @@ chmod a+x Cool-Retro-Term-1.1.1-x86_64.AppImage
 ./Cool-Retro-Term-1.1.1-x86_64.AppImage
 ```
 
-# show the history of comand in bash
+# Show the history of comand in bash
 history 
-
-# mpv
-mpv can open entire folder and you use the "enter key to skip to the next video"
 
 # ffmpeg
 If you wish to compress your videos before uploading them to YouTube, you can use FFmpeg:
@@ -266,26 +292,6 @@ cd /etc && echo "user_name ALL=(ALL)  ALL" >> /etc/sudoers
 # Install .deb package
 
 sudo dpkg -i [packagename].deb
-
----
-
-# Create a bootable linux distro flash drive isntaller 
-
-- Download Iso file
-
-> Suggestion: 
-> If "Nvidia hardware" Then: Install Ubuntu LTS; Else: Install Debian LTS;
-
-- sudo lsblk 
-- Phisically plug usb device to your computer hardware.
-- sudo lsblk 
-- Find the name of the __usb port__ by comparing both lsblk output
-- sudo umount /dev/__NameOfUsbPort__
-- sudo dd bs=4M if=__PathToYOurIsoFile__ of=/dev/__NameOfUsbPort__ status=progress oflag=sync
-- Wait for it to be installed.
-- Then disconnect the phisical usb drive from your computer hardware, and reconnect it to see if the change have been made.
-
-> All this could be automated by a shell file.
 
 ---
 
