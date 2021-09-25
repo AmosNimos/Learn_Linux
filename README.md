@@ -4,6 +4,8 @@
 
 [Bash terminal config ⚙️](https://github.com/AmosNimos/bashrc)
 
+[Linux Games 🎮](https://www.slant.co/topics/1933/~best-open-source-games)
+
 [vim 📝](https://github.com/AmosNimos/VIM)
 
 ## basic advice 
