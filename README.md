@@ -1,4 +1,4 @@
-🐇 You take the window/apple blue pill, the story ends, get force update and believe whatever you want to believe.
+🐇 You take the window/apple blue pill, the story ends, you get force update and believe whatever you want to believe.
 You take the Linux red pill, you stay in wonderland, and I show you how deep the rabbit hole goes.
 
 
