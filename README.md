@@ -304,8 +304,7 @@ sudo dpkg -i [packagename].deb
 # MOC MUSIC PLAYER THEME
 > Theme alternatif : darkdot_theme transparent-background moca_theme darkdot_theme green_theme red_theme etc...
 ~~~
-cp /usr/share/doc/moc/examples/config.example ~/.mocp/config
-echo "Theme = /usr/share/moc/themes/darkdot_theme" >> ~/.mocp/config
+mkdir ./moc && cp /usr/share/doc/moc/examples/config.example ~/.moc/config && echo "Theme = /usr/share/moc/themes/darkdot_theme" >> ~/.moc/config
 ~~~
 
 > To run command when you start the bash terminal you might need to append them in ~/.profile and check the Command/Run command as login shell preference.
