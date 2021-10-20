@@ -252,6 +252,7 @@ set mouse
 - cd /path/to/directory (move to directory)
 - cd (move to home directory)
 - man (show manual of information about commandname)
+- apropos (apropos command helps the user when they don't remember the exact command but knows a few keywords related to the command that define its uses or functionality.)
 - mv *path_to/file_name* /path/to/another/directory (move file.format to directory)
 - mv *old_name* *new_name* (rename oldname to newname)
 - xkill (Click on a programme to force it to close)
