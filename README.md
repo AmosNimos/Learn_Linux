@@ -137,6 +137,9 @@ ebook-convert input.txt output.epub
 ebook-convert input.epub output.txt
 > (To read them from the terminal using the cat or less command.)
 
+# odt to pdf
+libreoffice --headless --convert-to pdf *.odt
+
 # html to pdf
 Install html to pdf
 ```bash
@@ -147,7 +150,13 @@ Use html to pdf
 ```bash
 html2pdf source.html output.pdf
 ```
+# open pdf 
+```
+evince
+```
 ---
+
+
 
 # what is my ip 
 hostname -I | awk '{print $1}'
